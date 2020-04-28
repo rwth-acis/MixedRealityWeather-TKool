@@ -1,2 +1,2 @@
 # MixedRealityWeather-TKool
-MixedRealityWeather-TKool
+Marzella, Elcin& Hannah
