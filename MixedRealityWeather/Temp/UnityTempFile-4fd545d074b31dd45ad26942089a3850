@@ -1,0 +1,696 @@
+/target:library
+/nowarn:0169
+/out:Temp/Microsoft.MixedReality.Toolkit.dll
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Async.dll
+/reference:Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/UnityEditor.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\Managed/Unity.Locator.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.WSA.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2018.4.21f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+/reference:"H:/Dokumente/MX Lab/git/MixedRealityWeather-TKool/MixedRealityWeather/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
+/reference:"H:/Dokumente/MX Lab/git/MixedRealityWeather-TKool/MixedRealityWeather/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
+/reference:"H:/Dokumente/MX Lab/git/MixedRealityWeather-TKool/MixedRealityWeather/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll"
+/reference:"H:/Dokumente/MX Lab/git/MixedRealityWeather-TKool/MixedRealityWeather/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll"
+/reference:"H:/Dokumente/MX Lab/git/MixedRealityWeather-TKool/MixedRealityWeather/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\Microsoft.Win32.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.AppContext.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Concurrent.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.NonGeneric.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Specialized.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.TypeConverter.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Console.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Data.Common.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Contracts.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Debug.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Process.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.StackTrace.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tools.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TraceSource.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tracing.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Drawing.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Dynamic.Runtime.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Calendars.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Extensions.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.ZipFile.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Watcher.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.IsolatedStorage.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.MemoryMappedFiles.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Pipes.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Expressions.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Parallel.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Queryable.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Http.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NameResolution.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NetworkInformation.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Ping.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Requests.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Security.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Sockets.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebHeaderCollection.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.Client.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ObjectModel.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Extensions.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Reader.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.ResourceManager.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Writer.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Extensions.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Handles.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Numerics.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Json.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Xml.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Claims.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Csp.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Encoding.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Primitives.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Principal.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.SecureString.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.Extensions.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.RegularExpressions.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Overlapped.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.Parallel.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Thread.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.ThreadPool.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Timer.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ValueTuple.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.ReaderWriter.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XDocument.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlDocument.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlSerializer.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.XDocument.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Numerics.Vectors.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\mscorlib.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ComponentModel.Composition.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Core.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Data.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Drawing.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.IO.Compression.FileSystem.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Net.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Numerics.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Runtime.Serialization.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ServiceModel.Web.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Transactions.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Web.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Windows.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Linq.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.21f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll"
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2018_4_21
+/define:UNITY_2018_4
+/define:UNITY_2018
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_DUCK_TYPING
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_SPRITES
+/define:ENABLE_GRID
+/define:ENABLE_TILEMAP
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_DIRECTOR
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_WEBCAM
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_HUB
+/define:ENABLE_CLOUD_PROJECT_ID
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_TIMELINE
+/define:ENABLE_EDITOR_METRICS
+/define:ENABLE_EDITOR_METRICS_CACHING
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:INCLUDE_GI
+/define:ENABLE_MONO_BDWGC
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:INCLUDE_PUBNUB
+/define:ENABLE_VIDEO
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_LOCALIZATION
+/define:PLATFORM_STANDALONE_WIN
+/define:PLATFORM_STANDALONE
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_SUBSTANCE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_VR
+/define:ENABLE_AR
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_STANDARD_2_0
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+Assets\MixedRealityToolkit\AssemblyInfo.cs
+Assets\MixedRealityToolkit\Attributes\DocLinkAttribute.cs
+Assets\MixedRealityToolkit\Attributes\EnumFlagsAttribute.cs
+Assets\MixedRealityToolkit\Attributes\ExperimentalAttribute.cs
+Assets\MixedRealityToolkit\Attributes\ExtendsAttribute.cs
+Assets\MixedRealityToolkit\Attributes\HelpAttribute.cs
+Assets\MixedRealityToolkit\Attributes\ImplementsAttribute.cs
+Assets\MixedRealityToolkit\Attributes\MixedRealityControllerAttribute.cs
+Assets\MixedRealityToolkit\Attributes\MixedRealityDataProviderAttribute.cs
+Assets\MixedRealityToolkit\Attributes\MixedRealityExtensionServiceAttribute.cs
+Assets\MixedRealityToolkit\Attributes\MixedRealityServiceInspectorAttribute.cs
+Assets\MixedRealityToolkit\Attributes\MixedRealityServiceProfileAttribute.cs
+Assets\MixedRealityToolkit\Attributes\PhysicsLayerAttribute.cs
+Assets\MixedRealityToolkit\Attributes\PrefabAttribute.cs
+Assets\MixedRealityToolkit\Attributes\ReadOnlyAttribute.cs
+Assets\MixedRealityToolkit\Attributes\ScenePickAttribute.cs
+Assets\MixedRealityToolkit\Attributes\SystemTypeAttribute.cs
+Assets\MixedRealityToolkit\Attributes\TagPropertyAttribute.cs
+Assets\MixedRealityToolkit\Attributes\Vector3RangeAttribute.cs
+Assets\MixedRealityToolkit\Definitions\BaseMixedRealityProfile.cs
+Assets\MixedRealityToolkit\Definitions\BoundarySystem\BoundaryType.cs
+Assets\MixedRealityToolkit\Definitions\BoundarySystem\Edge.cs
+Assets\MixedRealityToolkit\Definitions\BoundarySystem\InscribedRectangle.cs
+Assets\MixedRealityToolkit\Definitions\BoundarySystem\MixedRealityBoundaryVisualizationProfile.cs
+Assets\MixedRealityToolkit\Definitions\CameraSystem\BaseCameraSettingsProfile.cs
+Assets\MixedRealityToolkit\Definitions\CameraSystem\CameraDisplayType.cs
+Assets\MixedRealityToolkit\Definitions\CameraSystem\MixedRealityCameraProfile.cs
+Assets\MixedRealityToolkit\Definitions\CameraSystem\MixedRealityCameraSettingsConfiguration.cs
+Assets\MixedRealityToolkit\Definitions\Devices\ControllerMappingLibrary.cs
+Assets\MixedRealityToolkit\Definitions\Devices\DeviceInputType.cs
+Assets\MixedRealityToolkit\Definitions\Devices\GestureInputType.cs
+Assets\MixedRealityToolkit\Definitions\Devices\Headset.cs
+Assets\MixedRealityToolkit\Definitions\Devices\InputSourceType.cs
+Assets\MixedRealityToolkit\Definitions\Devices\MixedRealityControllerConfigurationFlags.cs
+Assets\MixedRealityToolkit\Definitions\Devices\MixedRealityControllerMapping.cs
+Assets\MixedRealityToolkit\Definitions\Devices\MixedRealityControllerMappingProfile.cs
+Assets\MixedRealityToolkit\Definitions\Devices\MixedRealityControllerVisualizationProfile.cs
+Assets\MixedRealityToolkit\Definitions\Devices\MixedRealityControllerVisualizationSetting.cs
+Assets\MixedRealityToolkit\Definitions\Devices\MixedRealityEyeTrackingProfile.cs
+Assets\MixedRealityToolkit\Definitions\Devices\MixedRealityHandTrackingProfile.cs
+Assets\MixedRealityToolkit\Definitions\Devices\MixedRealityInteractionMapping.cs
+Assets\MixedRealityToolkit\Definitions\Devices\SDKType.cs
+Assets\MixedRealityToolkit\Definitions\Devices\SupportedControllerType.cs
+Assets\MixedRealityToolkit\Definitions\Devices\TrackingState.cs
+Assets\MixedRealityToolkit\Definitions\Diagnostics\MixedRealityDiagnosticsProfile.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\AnimatedCursorData.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\CursorContextEnum.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\CursorStateEnum.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\InputActionEventPair.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\InputActionRuleDigital.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\InputActionRuleDualAxis.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\InputActionRulePoseAxis.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\InputActionRuleQuaternionAxis.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\InputActionRuleSingleAxis.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\InputActionRuleVectorAxis.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\KeywordAndResponse.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\MixedRealityGestureMapping.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\MixedRealityGesturesProfile.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\MixedRealityInputAction.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\MixedRealityInputActionRulesProfile.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\MixedRealityInputActionsProfile.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\MixedRealityInputSystemProfile.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\MixedRealityPointerProfile.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\MixedRealityRaycastHit.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\MixedRealitySpeechCommandsProfile.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\PointerBehavior.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\PointerOption.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\SpeechCommands.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\TouchableEventType.cs
+Assets\MixedRealityToolkit\Definitions\InputSystem\WindowsGestureSettings.cs
+Assets\MixedRealityToolkit\Definitions\Lines\DistortionMode.cs
+Assets\MixedRealityToolkit\Definitions\Lines\InterpolationMode.cs
+Assets\MixedRealityToolkit\Definitions\Lines\InterpolationType.cs
+Assets\MixedRealityToolkit\Definitions\Lines\LinePointTransformMode.cs
+Assets\MixedRealityToolkit\Definitions\Lines\LineRotationMode.cs
+Assets\MixedRealityToolkit\Definitions\Lines\PointDistributionMode.cs
+Assets\MixedRealityToolkit\Definitions\Lines\StepMode.cs
+Assets\MixedRealityToolkit\Definitions\MixedRealityInputDataProviderConfiguration.cs
+Assets\MixedRealityToolkit\Definitions\MixedRealityRegisteredServiceProvidersProfile.cs
+Assets\MixedRealityToolkit\Definitions\MixedRealityServiceConfiguration.cs
+Assets\MixedRealityToolkit\Definitions\MixedRealitySpatialObserverConfiguration.cs
+Assets\MixedRealityToolkit\Definitions\MixedRealityToolkitConfigurationProfile.cs
+Assets\MixedRealityToolkit\Definitions\Physics\ComparableRaycastResult.cs
+Assets\MixedRealityToolkit\Definitions\Physics\FocusDetails.cs
+Assets\MixedRealityToolkit\Definitions\Physics\RayStep.cs
+Assets\MixedRealityToolkit\Definitions\Physics\SceneQueryType.cs
+Assets\MixedRealityToolkit\Definitions\Physics\TeleportSurfaceResult.cs
+Assets\MixedRealityToolkit\Definitions\SceneSystem\LightingSceneTransitionType.cs
+Assets\MixedRealityToolkit\Definitions\SceneSystem\MixedRealitySceneSystemProfile.cs
+Assets\MixedRealityToolkit\Definitions\SceneSystem\RuntimeLightingSettings.cs
+Assets\MixedRealityToolkit\Definitions\SceneSystem\RuntimeRenderSettings.cs
+Assets\MixedRealityToolkit\Definitions\SceneSystem\RuntimeSunlightSettings.cs
+Assets\MixedRealityToolkit\Definitions\SceneSystem\SceneActivationToken.cs
+Assets\MixedRealityToolkit\Definitions\SceneSystem\SceneInfo.cs
+Assets\MixedRealityToolkit\Definitions\SpatialAwareness\BaseSpatialAwarenessObject.cs
+Assets\MixedRealityToolkit\Definitions\SpatialAwareness\BaseSpatialAwarenessObserverProfile.cs
+Assets\MixedRealityToolkit\Definitions\SpatialAwareness\MixedRealitySpatialAwarenessMeshObserverProfile.cs
+Assets\MixedRealityToolkit\Definitions\SpatialAwareness\MixedRealitySpatialAwarenessSystemProfile.cs
+Assets\MixedRealityToolkit\Definitions\SpatialAwareness\SpatialAwarenessMeshLevelOfDetail.cs
+Assets\MixedRealityToolkit\Definitions\SpatialAwareness\SpatialAwarenessMeshObject.cs
+Assets\MixedRealityToolkit\Definitions\SpatialAwareness\SpatialAwarenessPlanarObject.cs
+Assets\MixedRealityToolkit\Definitions\SpatialAwareness\SpatialAwarenessSurfaceTypes.cs
+Assets\MixedRealityToolkit\Definitions\SpatialAwareness\SpatialMeshDisplayOptions.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\AnimatorParameter.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\ArticulatedHandPose.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\AutoStartBehavior.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\AxisFlags.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\AxisType.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\CollationOrder.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\ExperienceScale.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\Handedness.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\ManipulationHandFlags.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\ManipulationProximityFlags.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\MixedRealityCapability.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\MixedRealityPose.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\MixedRealityTransform.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\MovementConstraintType.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\OrientationType.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\PivotAxis.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\ProcessResult.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\ProfileMenuItemIndices.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\RadialViewReferenceDirection.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\RecognitionConfidenceLevel.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\RotationConstraintType.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\ScaleState.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\SceneAssetReferenceAttribute.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\SolverOrientationType.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\SupportedApplicationModes.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\SupportedPlatforms.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\SystemType.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\TrackedHandJoint.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\TrackedObjectType.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\TransformFlags.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\TypeGrouping.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\Vector3Smoothed.cs
+Assets\MixedRealityToolkit\Definitions\Utilities\VolumeType.cs
+Assets\MixedRealityToolkit\EventDatum\Boundary\BoundaryEventData.cs
+Assets\MixedRealityToolkit\EventDatum\Diagnostics\DiagnosticsEventData.cs
+Assets\MixedRealityToolkit\EventDatum\GenericBaseEventData.cs
+Assets\MixedRealityToolkit\EventDatum\Input\BaseInputEventData.cs
+Assets\MixedRealityToolkit\EventDatum\Input\DictationEventData.cs
+Assets\MixedRealityToolkit\EventDatum\Input\FocusEventData.cs
+Assets\MixedRealityToolkit\EventDatum\Input\HandTrackingInputEventData.cs
+Assets\MixedRealityToolkit\EventDatum\Input\InputEventData.cs
+Assets\MixedRealityToolkit\EventDatum\Input\MixedRealityPointerEventData.cs
+Assets\MixedRealityToolkit\EventDatum\Input\SourcePoseEventData.cs
+Assets\MixedRealityToolkit\EventDatum\Input\SourceStateEventData.cs
+Assets\MixedRealityToolkit\EventDatum\Input\SpeechEventData.cs
+Assets\MixedRealityToolkit\EventDatum\PlacementEventData.cs
+Assets\MixedRealityToolkit\EventDatum\SpatialAwareness\MixedRealitySpatialAwarenessEventData.cs
+Assets\MixedRealityToolkit\EventDatum\Teleport\TeleportEventData.cs
+Assets\MixedRealityToolkit\Experimental\Utilities\Migration\IMigrationHandler.cs
+Assets\MixedRealityToolkit\Extensions\AnimationCurveExtensions.cs
+Assets\MixedRealityToolkit\Extensions\ArrayExtensions.cs
+Assets\MixedRealityToolkit\Extensions\AssemblyExtensions.cs
+Assets\MixedRealityToolkit\Extensions\BoundsExtensions.cs
+Assets\MixedRealityToolkit\Extensions\CameraExtensions.cs
+Assets\MixedRealityToolkit\Extensions\CanvasExtensions.cs
+Assets\MixedRealityToolkit\Extensions\CollectionsExtensions.cs
+Assets\MixedRealityToolkit\Extensions\Color32Extensions.cs
+Assets\MixedRealityToolkit\Extensions\ComparerExtensions.cs
+Assets\MixedRealityToolkit\Extensions\ComponentExtensions.cs
+Assets\MixedRealityToolkit\Extensions\DoubleExtensions.cs
+Assets\MixedRealityToolkit\Extensions\EnumerableExtensions.cs
+Assets\MixedRealityToolkit\Extensions\EventSystemExtensions.cs
+Assets\MixedRealityToolkit\Extensions\FloatExtensions.cs
+Assets\MixedRealityToolkit\Extensions\GameObjectExtensions.cs
+Assets\MixedRealityToolkit\Extensions\HandednessExtensions.cs
+Assets\MixedRealityToolkit\Extensions\LayerExtensions.cs
+Assets\MixedRealityToolkit\Extensions\MathfExtensions.cs
+Assets\MixedRealityToolkit\Extensions\ProcessExtensions.cs
+Assets\MixedRealityToolkit\Extensions\QuaternionExtensions.cs
+Assets\MixedRealityToolkit\Extensions\RayExtensions.cs
+Assets\MixedRealityToolkit\Extensions\ReflectionExtensions.cs
+Assets\MixedRealityToolkit\Extensions\StringBuilderExtensions.cs
+Assets\MixedRealityToolkit\Extensions\StringExtensions.cs
+Assets\MixedRealityToolkit\Extensions\SystemNumericsExtensions.cs
+Assets\MixedRealityToolkit\Extensions\Texture2DExtensions.cs
+Assets\MixedRealityToolkit\Extensions\TransformExtensions.cs
+Assets\MixedRealityToolkit\Extensions\TypeExtensions.cs
+Assets\MixedRealityToolkit\Extensions\UnityObjectExtensions.cs
+Assets\MixedRealityToolkit\Extensions\VectorExtensions.cs
+Assets\MixedRealityToolkit\Interfaces\Audio\IAudioInfluencer.cs
+Assets\MixedRealityToolkit\Interfaces\BoundarySystem\IMixedRealityBoundaryHandler.cs
+Assets\MixedRealityToolkit\Interfaces\BoundarySystem\IMixedRealityBoundarySystem.cs
+Assets\MixedRealityToolkit\Interfaces\CameraSystem\IMixedRealityCameraSettingsProvider.cs
+Assets\MixedRealityToolkit\Interfaces\CameraSystem\IMixedRealityCameraSystem.cs
+Assets\MixedRealityToolkit\Interfaces\Devices\IMixedRealityController.cs
+Assets\MixedRealityToolkit\Interfaces\Devices\IMixedRealityControllerPoseSynchronizer.cs
+Assets\MixedRealityToolkit\Interfaces\Devices\IMixedRealityControllerVisualizer.cs
+Assets\MixedRealityToolkit\Interfaces\Devices\IMixedRealityDictationSystem.cs
+Assets\MixedRealityToolkit\Interfaces\Devices\IMixedRealityHand.cs
+Assets\MixedRealityToolkit\Interfaces\Devices\IMixedRealityHandJointService.cs
+Assets\MixedRealityToolkit\Interfaces\Devices\IMixedRealityHandVisualizer.cs
+Assets\MixedRealityToolkit\Interfaces\Devices\IMixedRealityInputDeviceManager.cs
+Assets\MixedRealityToolkit\Interfaces\Devices\IMixedRealitySpeechSystem.cs
+Assets\MixedRealityToolkit\Interfaces\Diagnostics\IMixedRealityDiagnosticsHandler.cs
+Assets\MixedRealityToolkit\Interfaces\Diagnostics\IMixedRealityDiagnosticsSystem.cs
+Assets\MixedRealityToolkit\Interfaces\EventSystem\Handlers\IMixedRealityEventHandler.cs
+Assets\MixedRealityToolkit\Interfaces\EventSystem\IMixedRealityEventSource.cs
+Assets\MixedRealityToolkit\Interfaces\EventSystem\IMixedRealityEventSystem.cs
+Assets\MixedRealityToolkit\Interfaces\IMixedRealityServiceConfiguration.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\Handlers\IMixedRealityBaseInputHandler.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\Handlers\IMixedRealityDictationHandler.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\Handlers\IMixedRealityFocusChangedHandler.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\Handlers\IMixedRealityFocusHandler.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\Handlers\IMixedRealityGestureHandler.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\Handlers\IMixedRealityHandJointHandler.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\Handlers\IMixedRealityHandMeshHandler.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\Handlers\IMixedRealityInputActionHandler.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\Handlers\IMixedRealityInputHandler.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\Handlers\IMixedRealityPointerHandler.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\Handlers\IMixedRealitySourcePoseHandler.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\Handlers\IMixedRealitySourceStateHandler.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\Handlers\IMixedRealitySpeechHandler.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\Handlers\IMixedRealityTouchHandler.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\ICursorModifier.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IInputActionRule.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityCursor.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityEyeGazeDataProvider.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityEyeGazeProvider.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityEyeSaccadeProvider.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityFocusProvider.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityGazeProvider.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityInputSource.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityInputSystem.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityMouseDeviceManager.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityMousePointer.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityNearPointer.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityPointer.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityPointerMediator.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityPrimaryPointerSelector.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityRaycastProvider.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityTeleportPointer.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IMixedRealityTouchPointer.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IPointerPreferences.cs
+Assets\MixedRealityToolkit\Interfaces\InputSystem\IPointerResult.cs
+Assets\MixedRealityToolkit\Interfaces\Physics\IBaseRayStabilizer.cs
+Assets\MixedRealityToolkit\Interfaces\Registrars\IMixedRealityServiceRegistrar.cs
+Assets\MixedRealityToolkit\Interfaces\Rendering\IMaterialInstanceOwner.cs
+Assets\MixedRealityToolkit\Interfaces\SceneSystem\IMixedRealitySceneSystem.cs
+Assets\MixedRealityToolkit\Interfaces\SceneSystem\IMixedRealitySceneSystemEditor.cs
+Assets\MixedRealityToolkit\Interfaces\Services\IMixedRealityCapabilityCheck.cs
+Assets\MixedRealityToolkit\Interfaces\Services\IMixedRealityDataProvider.cs
+Assets\MixedRealityToolkit\Interfaces\Services\IMixedRealityDataProviderAccess.cs
+Assets\MixedRealityToolkit\Interfaces\Services\IMixedRealityExtensionService.cs
+Assets\MixedRealityToolkit\Interfaces\Services\IMixedRealityService.cs
+Assets\MixedRealityToolkit\Interfaces\SpatialAwareness\Handlers\IMixedRealitySpatialAwarenessObservationHandler.cs
+Assets\MixedRealityToolkit\Interfaces\SpatialAwareness\IMixedRealitySpatialAwarenessObject.cs
+Assets\MixedRealityToolkit\Interfaces\SpatialAwareness\IMixedRealitySpatialAwarenessSystem.cs
+Assets\MixedRealityToolkit\Interfaces\SpatialAwareness\Observers\IMixedRealitySpatialAwarenessMeshObserver.cs
+Assets\MixedRealityToolkit\Interfaces\SpatialAwareness\Observers\IMixedRealitySpatialAwarenessObserver.cs
+Assets\MixedRealityToolkit\Interfaces\TeleportSystem\Handlers\IMixedRealityTeleportHandler.cs
+Assets\MixedRealityToolkit\Interfaces\TeleportSystem\IMixedRealityTeleportHotSpot.cs
+Assets\MixedRealityToolkit\Interfaces\TeleportSystem\IMixedRealityTeleportSystem.cs
+Assets\MixedRealityToolkit\Providers\BaseBoundarySystem.cs
+Assets\MixedRealityToolkit\Providers\BaseCameraSettingsProvider.cs
+Assets\MixedRealityToolkit\Providers\BaseController.cs
+Assets\MixedRealityToolkit\Providers\BaseGenericInputSource.cs
+Assets\MixedRealityToolkit\Providers\BaseInputDeviceManager.cs
+Assets\MixedRealityToolkit\Providers\BaseSpatialMeshObserver.cs
+Assets\MixedRealityToolkit\Providers\BaseSpatialObserver.cs
+Assets\MixedRealityToolkit\Providers\GenericPointer.cs
+Assets\MixedRealityToolkit\Providers\Hands\BaseHand.cs
+Assets\MixedRealityToolkit\Providers\Hands\BaseHandVisualizer.cs
+Assets\MixedRealityToolkit\Providers\Hands\HandBounds.cs
+Assets\MixedRealityToolkit\Providers\Hands\HandJointService.cs
+Assets\MixedRealityToolkit\Providers\Hands\HandJointUtils.cs
+Assets\MixedRealityToolkit\Providers\Hands\HandRay.cs
+Assets\MixedRealityToolkit\Providers\UnityInput\GenericJoystickController.cs
+Assets\MixedRealityToolkit\Providers\UnityInput\MixedRealityMouseInputProfile.cs
+Assets\MixedRealityToolkit\Providers\UnityInput\MouseController.cs
+Assets\MixedRealityToolkit\Providers\UnityInput\MouseDeviceManager.cs
+Assets\MixedRealityToolkit\Providers\UnityInput\UnityJoystickManager.cs
+Assets\MixedRealityToolkit\Providers\UnityInput\UnityTouchController.cs
+Assets\MixedRealityToolkit\Providers\UnityInput\UnityTouchDeviceManager.cs
+Assets\MixedRealityToolkit\Providers\UnityInput\XboxController.cs
+Assets\MixedRealityToolkit\Services\BaseCoreSystem.cs
+Assets\MixedRealityToolkit\Services\BaseDataProvider.cs
+Assets\MixedRealityToolkit\Services\BaseDataProviderAccessCoreSystem.cs
+Assets\MixedRealityToolkit\Services\BaseEventSystem.cs
+Assets\MixedRealityToolkit\Services\BaseExtensionService.cs
+Assets\MixedRealityToolkit\Services\BaseService.cs
+Assets\MixedRealityToolkit\Services\MixedRealityToolkit.cs
+Assets\MixedRealityToolkit\Utilities\CameraCache.cs
+Assets\MixedRealityToolkit\Utilities\CameraEventRouter.cs
+Assets\MixedRealityToolkit\Utilities\CameraFOVChecker.cs
+Assets\MixedRealityToolkit\Utilities\CoreServices.cs
+Assets\MixedRealityToolkit\Utilities\DebugUtilities.cs
+Assets\MixedRealityToolkit\Utilities\EdgeUtilities.cs
+Assets\MixedRealityToolkit\Utilities\Facades\ServiceFacade.cs
+Assets\MixedRealityToolkit\Utilities\FastSimplexNoise.cs
+Assets\MixedRealityToolkit\Utilities\GameObjectManagement\GameObjectCreator.cs
+Assets\MixedRealityToolkit\Utilities\GameObjectManagement\GameObjectPool.cs
+Assets\MixedRealityToolkit\Utilities\GameObjectManagement\GenericPrefabInstanceCreator.cs
+Assets\MixedRealityToolkit\Utilities\GameObjectManagement\IGameObjectCreatorListener.cs
+Assets\MixedRealityToolkit\Utilities\InspectorFields\InspectorField.cs
+Assets\MixedRealityToolkit\Utilities\InspectorFields\InspectorFieldData.cs
+Assets\MixedRealityToolkit\Utilities\InspectorFields\InspectorGenericFields.cs
+Assets\MixedRealityToolkit\Utilities\InspectorFields\InspectorPropertySettings.cs
+Assets\MixedRealityToolkit\Utilities\Lines\DataProviders\BaseMixedRealityLineDataProvider.cs
+Assets\MixedRealityToolkit\Utilities\Lines\DataProviders\BezierDataProvider.cs
+Assets\MixedRealityToolkit\Utilities\Lines\DataProviders\BezierInertia.cs
+Assets\MixedRealityToolkit\Utilities\Lines\DataProviders\EllipseLineDataProvider.cs
+Assets\MixedRealityToolkit\Utilities\Lines\DataProviders\ParabolaConstrainedLineDataProvider.cs
+Assets\MixedRealityToolkit\Utilities\Lines\DataProviders\ParabolaLineDataProvider.cs
+Assets\MixedRealityToolkit\Utilities\Lines\DataProviders\ParabolaPhysicalLineDataProvider.cs
+Assets\MixedRealityToolkit\Utilities\Lines\DataProviders\RectangleLineDataProvider.cs
+Assets\MixedRealityToolkit\Utilities\Lines\DataProviders\SimpleLineDataProvider.cs
+Assets\MixedRealityToolkit\Utilities\Lines\DataProviders\SplineDataProvider.cs
+Assets\MixedRealityToolkit\Utilities\Lines\LineFollower.cs
+Assets\MixedRealityToolkit\Utilities\Lines\LineUtility.cs
+Assets\MixedRealityToolkit\Utilities\Lines\Renderers\BaseMixedRealityLineRenderer.cs
+Assets\MixedRealityToolkit\Utilities\Lines\Renderers\MeshLineRenderer.cs
+Assets\MixedRealityToolkit\Utilities\Lines\Renderers\MixedRealityLineRenderer.cs
+Assets\MixedRealityToolkit\Utilities\Lines\Renderers\ParticleSystemLineRenderer.cs
+Assets\MixedRealityToolkit\Utilities\Lines\Renderers\StripMeshLineRenderer.cs
+Assets\MixedRealityToolkit\Utilities\MaintainBorderLightWidth.cs
+Assets\MixedRealityToolkit\Utilities\MathUtilities.cs
+Assets\MixedRealityToolkit\Utilities\MixedRealityPlayspace.cs
+Assets\MixedRealityToolkit\Utilities\MixedRealityServiceRegistry.cs
+Assets\MixedRealityToolkit\Utilities\OBJWriterUtility.cs
+Assets\MixedRealityToolkit\Utilities\Physics\BaseRayStabilizer.cs
+Assets\MixedRealityToolkit\Utilities\Physics\Distorters\Distorter.cs
+Assets\MixedRealityToolkit\Utilities\Physics\Distorters\DistorterBulge.cs
+Assets\MixedRealityToolkit\Utilities\Physics\Distorters\DistorterGravity.cs
+Assets\MixedRealityToolkit\Utilities\Physics\Distorters\DistorterSimplex.cs
+Assets\MixedRealityToolkit\Utilities\Physics\Distorters\DistorterSphere.cs
+Assets\MixedRealityToolkit\Utilities\Physics\Distorters\DistorterWiggly.cs
+Assets\MixedRealityToolkit\Utilities\Physics\GazeStabilizer.cs
+Assets\MixedRealityToolkit\Utilities\Physics\InterpolationUtilities.cs
+Assets\MixedRealityToolkit\Utilities\Physics\Interpolator.cs
+Assets\MixedRealityToolkit\Utilities\Physics\MixedRealityRaycaster.cs
+Assets\MixedRealityToolkit\Utilities\Physics\RaycastResultComparer.cs
+Assets\MixedRealityToolkit\Utilities\Physics\VectorRollingStatistics.cs
+Assets\MixedRealityToolkit\Utilities\PlatformUtility.cs
+Assets\MixedRealityToolkit\Utilities\Rendering\DepthBufferRenderer.cs
+Assets\MixedRealityToolkit\Utilities\Rendering\MaterialInstance.cs
+Assets\MixedRealityToolkit\Utilities\Scenes\EditorSceneUtils.cs
+Assets\MixedRealityToolkit\Utilities\Scenes\RuntimeSceneUtils.cs
+Assets\MixedRealityToolkit\Utilities\Scenes\SerializedObjectUtils.cs
+Assets\MixedRealityToolkit\Utilities\ScriptingUtilities.cs
+Assets\MixedRealityToolkit\Utilities\StandardShader\BaseMeshOutline.cs
+Assets\MixedRealityToolkit\Utilities\StandardShader\ClippingBox.cs
+Assets\MixedRealityToolkit\Utilities\StandardShader\ClippingPlane.cs
+Assets\MixedRealityToolkit\Utilities\StandardShader\ClippingPrimitive.cs
+Assets\MixedRealityToolkit\Utilities\StandardShader\ClippingSphere.cs
+Assets\MixedRealityToolkit\Utilities\StandardShader\HoverLight.cs
+Assets\MixedRealityToolkit\Utilities\StandardShader\MeshOutline.cs
+Assets\MixedRealityToolkit\Utilities\StandardShader\MeshOutlineHierarchy.cs
+Assets\MixedRealityToolkit\Utilities\StandardShader\MeshSmoother.cs
+Assets\MixedRealityToolkit\Utilities\StandardShader\ProximityLight.cs
+Assets\MixedRealityToolkit\Utilities\StandardShader\StandardShaderUtility.cs
+Assets\MixedRealityToolkit\Utilities\TypeCacheUtility.cs
+Assets\MixedRealityToolkit\Utilities\UWPCapabilityUtility.cs
+Assets\MixedRealityToolkit\Utilities\WebRequestRest\Response.cs
+Assets\MixedRealityToolkit\Utilities\WebRequestRest\Rest.cs
+Assets\MixedRealityToolkit\Utilities\WindowsApiChecker.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\ActivePowerSchemeInfo.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\AdapterInfo.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\ApplicationInfo.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\AvailableWiFiNetworks.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\BatteryInfo.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\DeviceInfo.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\DeviceOsInfo.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\DevicePortalConnections.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\DHCPInfo.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\FileInfo.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\FileList.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\InstalledApps.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\InstallStatus.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\InterfaceInfo.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\IpAddressInfo.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\IpConfigInfo.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\MachineName.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\NetworkInterfaces.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\NetworkProfileInfo.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\PowerStateInfo.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\ProcessInfo.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\ProcessList.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DataStructures\WirelessNetworkInfo.cs
+Assets\MixedRealityToolkit\Utilities\WindowsDevicePortal\DevicePortal.cs
