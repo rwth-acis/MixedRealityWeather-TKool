@@ -3,14 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace System
-{
-    [Serializable]
+
+    [System.Serializable]
     public class WeatherData
     {
         public WeatherState[] weather;
         public string main;
     }
-}
-
 

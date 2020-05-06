@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace System
-{
-    [Serializable]
+    [System.Serializable]
     public class WeatherState
     {
         public string id;
@@ -13,4 +11,3 @@ namespace System
         public string description;
         public string icon;
     }
-}

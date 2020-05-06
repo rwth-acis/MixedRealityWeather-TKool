@@ -6,7 +6,7 @@ using Microsoft.MixedReality.Toolkit.Utilities.Editor.Search;
 using Microsoft.MixedReality.Toolkit.Input;
 using TMPro;
 
-public class LocationButton: IMixedRealityPointerHandler
+public class LocationButton: MonoBehaviour, IMixedRealityPointerHandler
 {
     public TextMeshPro text;
     public void OnPointerDown(MixedRealityPointerEventData eventData)
@@ -26,6 +26,7 @@ public class LocationButton: IMixedRealityPointerHandler
 
     void OnPointerClicked(MixedRealityPointerEventData eventData)
     {
+        text = eventData.currentInputModule.gameObject.GetComponentInChildren<TextMeshPro>();
         Debug.Log(text);
     }
 

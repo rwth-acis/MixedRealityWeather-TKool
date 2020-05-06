@@ -20,7 +20,6 @@ namespace Microsoft.MixedReality.Toolkit.Utilities
         // Update is called once per frame
         void Update()
         {
-
         }
 
         public async Task<WeatherData> FetchWeatherData(string cityName)
