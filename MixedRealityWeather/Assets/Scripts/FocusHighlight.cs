@@ -8,21 +8,23 @@ using UnityEngine.Experimental.UIElements;
 public class FocusHighlight : MonoBehaviour, IMixedRealityFocusHandler
 {
     private Color startColor;
-    public Color FocusColor;
+    public Color focusColor;
     public static Renderer backgorundRenderer;
-    private Material material;
 
     void Start()
     {
-        startColor = backgorundRenderer.material.color;
+        startColor = GetComponentInChildren<Renderer>().material.color;
     }
 
     public void OnFocusEnter(FocusEventData eventData)
     {
-        backgorundRenderer.material.color = FocusColor; 
+        GetComponentInChildren<Renderer>().material.color = focusColor;
+        //backgorundRenderer.material.color = FocusColor; 
     }
+
    public void OnFocusExit(FocusEventData eventData)
     {
-        backgorundRenderer.material.color = startColor;
+        GetComponentInChildren<Renderer>().material.color = startColor;
+        //backgorundRenderer.material.color = startColor;
     }
 }

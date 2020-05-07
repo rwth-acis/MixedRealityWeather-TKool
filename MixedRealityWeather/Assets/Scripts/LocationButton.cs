@@ -8,30 +8,26 @@ using TMPro;
 
 public class LocationButton: MonoBehaviour, IMixedRealityPointerHandler
 {
-    public TextMeshPro text;
+    public TextMeshPro textObject;
+
     public void OnPointerDown(MixedRealityPointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        //throw new System.NotImplementedException();
     }
 
     public void OnPointerDragged(MixedRealityPointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        //throw new System.NotImplementedException();
     }
 
     public void OnPointerUp(MixedRealityPointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        //throw new System.NotImplementedException();
     }
 
-    void OnPointerClicked(MixedRealityPointerEventData eventData)
+    public void OnPointerClicked(MixedRealityPointerEventData eventData)
     {
-        text = eventData.currentInputModule.gameObject.GetComponentInChildren<TextMeshPro>();
-        Debug.Log(text);
-    }
-
-    void IMixedRealityPointerHandler.OnPointerClicked(MixedRealityPointerEventData eventData)
-    {
-        throw new System.NotImplementedException();
+        string cityName = textObject.text;
+        Debug.Log(cityName);
     }
 }
