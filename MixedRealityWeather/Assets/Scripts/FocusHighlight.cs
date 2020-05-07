@@ -12,7 +12,7 @@ public class FocusHighlight : MonoBehaviour, IMixedRealityFocusHandler
     private static Renderer rend;
     private Material material;
 
-    void IMixedRealityFocusHandler.OnPointerSelected(MixedRealityFocusHandlerEventData eventData)
+    void OnPointerSelected(FocusEventData eventData)
     {
         throw new System.NotImplementedException();
     }
