@@ -7,32 +7,22 @@ using UnityEngine.Experimental.UIElements;
 
 public class FocusHighlight : MonoBehaviour, IMixedRealityFocusHandler
 {
-   //private Color color;
     private Color startColor;
-    private static Renderer rend;
+    public Color FocusColor;
+    public static Renderer backgorundRenderer;
     private Material material;
 
-    void OnPointerSelected(FocusEventData eventData)
+    void Start()
     {
-        throw new System.NotImplementedException();
-    }
-
-    public static void saveColor(Color startColor)
-    {
-        startColor = rend.material.color;
-        //toString
-        //Button.color = startcolor;
-        //PlayerPrefs.SetString("Default Color", Color.blue.ToString());
-        //startcolor = PlayerPrefs.GetString("Default Color");
+        startColor = backgorundRenderer.material.color;
     }
 
     public void OnFocusEnter(FocusEventData eventData)
     {
-        //startcolor = rend.material.color;
-        rend.material.color = Color.yellow; 
+        backgorundRenderer.material.color = FocusColor; 
     }
    public void OnFocusExit(FocusEventData eventData)
     {
-        rend.material.color = startColor;
+        backgorundRenderer.material.color = startColor;
     }
 }
