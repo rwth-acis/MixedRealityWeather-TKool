@@ -8,6 +8,7 @@ using UnityEngine;
     public class WeatherData
     {
         public WeatherState[] weather;
-        public string main;
+        public MainInformation main;
+        
     }
 

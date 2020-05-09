@@ -6,11 +6,10 @@ using Microsoft.MixedReality.Toolkit.Utilities.Editor.Search;
 using System.Threading.Tasks;
 
 
-namespace Microsoft.MixedReality.Toolkit.Utilities
-{
+
     public class WeatherQuery : MonoBehaviour 
     {
-        string apiKey = "16fb128280d16cd1acdeed497976a523";
+        private static string apiKey = "16fb128280d16cd1acdeed497976a523";
 
         // Start is called before the first frame update
         void Start()
@@ -25,13 +24,16 @@ namespace Microsoft.MixedReality.Toolkit.Utilities
         public async Task<WeatherData> FetchWeatherData(string cityName)
         {
             WeatherData data = null;
-
-            Response answer = await Rest.GetAsync("api.openweathermap.org / data / 2.5 / weather ? q ={cityName}&appid ={apiKey}");
+            Microsoft.MixedReality.Toolkit.Utilities.Response answer = await Microsoft.MixedReality.Toolkit.Utilities.Rest.GetAsync(string.Format("api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric", cityName, apiKey));
             if (answer.Successful == true) {
+                Debug.Log("Recived Weather Information.");
                 data = JsonUtility.FromJson<WeatherData>(answer.ResponseBody);
             }
+        else
+        {
+            Debug.Log("weather data could not be fetched");
+        }
 
             return data;
         }
     }
-}
