@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 3197968145406584704}
   - component: {fileID: 5004356760970752245}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: CityName Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

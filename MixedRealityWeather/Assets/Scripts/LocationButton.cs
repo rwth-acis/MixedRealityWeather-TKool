@@ -9,6 +9,7 @@ using TMPro;
 public class LocationButton: MonoBehaviour, IMixedRealityPointerHandler
 {
     public TextMeshPro textObject;
+    public WeatherController controller;
 
     public void OnPointerDown(MixedRealityPointerEventData eventData)
     {
@@ -28,6 +29,6 @@ public class LocationButton: MonoBehaviour, IMixedRealityPointerHandler
     public void OnPointerClicked(MixedRealityPointerEventData eventData)
     {
         string cityName = textObject.text;
-        Debug.Log(cityName);
+        controller.LoadWeather(cityName);
     }
 }
