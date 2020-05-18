@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -358,6 +358,24 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &281057348 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3531550778618225351, guid: 90d8fb82acae5894ba18ca7675ba7249,
+    type: 3}
+  m_PrefabInstance: {fileID: 587939716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &281057349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281057348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89103ba816fc1ac40b7f0e5e2e303fcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &496447175
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,7 +609,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: WeatherWidget
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 960768522576224922, guid: 90d8fb82acae5894ba18ca7675ba7249, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 90d8fb82acae5894ba18ca7675ba7249, type: 3}
 --- !u!4 &587939717 stripped
 Transform:
@@ -605,7 +624,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 587939716}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 281057348}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 88429417d6c2b5d42a2882dec645ed02, type: 3}
@@ -1648,7 +1667,7 @@ GameObject:
   - component: {fileID: 2080335402}
   - component: {fileID: 2080335404}
   - component: {fileID: 2080335403}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WeatherDisplay
   m_TagString: Untagged
   m_Icon: {fileID: 0}

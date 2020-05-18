@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 3531550778618225348}
   - component: {fileID: 3531550778618225354}
   - component: {fileID: 1332202102}
+  - component: {fileID: 960768522576224922}
   m_Layer: 0
   m_Name: WeatherWidget
   m_TagString: Untagged
@@ -98,6 +99,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.73, y: 0.83, z: 0.55}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &960768522576224922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3531550778618225351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 319d5363643e81345bacc395e69bf15d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2030586931288920895
 PrefabInstance:
   m_ObjectHideFlags: 0
