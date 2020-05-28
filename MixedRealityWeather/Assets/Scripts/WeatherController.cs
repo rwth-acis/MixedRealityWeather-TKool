@@ -10,18 +10,6 @@ public class WeatherController : MonoBehaviour
     public TextMeshPro currentWeather;
     public WeatherWidget weatherObject;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-    
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     //converts code from API request to weather scene for widget
     private WeatherScene CodeToWeather(int code)
     {
