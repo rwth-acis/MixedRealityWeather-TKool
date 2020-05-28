@@ -11,6 +11,16 @@ using System.Threading.Tasks;
     {
         private static string apiKey = "16fb128280d16cd1acdeed497976a523";
 
+        // Start is called before the first frame update
+        void Start()
+        {
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+        }
+
         public async Task<WeatherData> FetchWeatherData(string cityName)
         {
             WeatherData data = null;

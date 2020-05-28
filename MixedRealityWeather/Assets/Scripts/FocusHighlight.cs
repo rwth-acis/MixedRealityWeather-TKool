@@ -9,23 +9,22 @@ public class FocusHighlight : MonoBehaviour, IMixedRealityFocusHandler
 {
     private Color startColor;
     public Color focusColor;
-    public Renderer backgorundRenderer;
+    public static Renderer backgorundRenderer;
 
     void Start()
     {
-        startColor = backgorundRenderer.material.color;
-        //GetComponentInChildren<Renderer>().material.color;
+        startColor = GetComponentInChildren<Renderer>().material.color;
     }
 
     public void OnFocusEnter(FocusEventData eventData)
     {
-        //GetComponentInChildren<Renderer>().material.color = focusColor;
-        backgorundRenderer.material.color = focusColor; 
+        GetComponentInChildren<Renderer>().material.color = focusColor;
+        //backgorundRenderer.material.color = FocusColor; 
     }
 
    public void OnFocusExit(FocusEventData eventData)
     {
-        //GetComponentInChildren<Renderer>().material.color = startColor;
-        backgorundRenderer.material.color = startColor;
+        GetComponentInChildren<Renderer>().material.color = startColor;
+        //backgorundRenderer.material.color = startColor;
     }
 }
